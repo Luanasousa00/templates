@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendações</title>
+    <style>
+        /* Estilos globais */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #B47110;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        header .logo {
+            width: 170px; /* Tamanho ajustado para 100 pixels de largura */
+        }
+
+        header h2 {
+            font-family: 'Cordel encarnado', Courier, monospace;
+            font-size: 2rem;
+            color: #000;
+            text-transform: uppercase;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        section {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h2 {
+            color: #0c0c0c;
+            font-size: 1.5rem;
+            text-align: center; /* Centraliza o texto horizontalmente */
+        }
+
+        /* Estilo das recomendações */
+        .recommendation {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 3px 3px 10px #888888;
+            position: relative;
+            display: flex;
+        }
+
+        .recommendation img {
+            max-width: 100%;
+        }
+
+        .recommendation-info {
+            max-width: 60%; /* Largura das informações ajustada */
+            padding-left: 20px;
+        }
+
+        .recommendation h3 {
+            color: #B47110; /* Cor do título da recomendação */
+            font-size: 1.5rem;
+        }
+
+        .recommendation p {
+            color: #333;
+        }
+
+        .action-buttons {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .action-buttons a {
+            background-color: #B47110;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            color: #fff;
+            text-align: center;
+            font-size: 15px;
+            margin: 5px 0;
+            cursor: pointer; /* Torna o link clicável e mostra a mãozinha */
+            text-decoration: none; /* Remove o sublinhado padrão */
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #B47110;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        footer p {
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho (Projeto Lampião) -->
+    <header>
+        <img class="logo" src="logo/logo.png" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="Cordéis.html">Cordéis</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Recomendações</h2>
+        <div class="recommendation">
+            <img src="logo/imagem1.jpeg" alt="Recomendação 1">
+            <div class="recommendation-info">
+                <h3>Lampião - O terror do nordeste</h3>
+                <p>Descrição breve da recomendação 1.</p>
+                <p>Classificação: 4.5/5</p>
+            </div>
+            <div class="action-buttons">
+                <a href="caminho1.html">Adicionar à Lista</a>
+                <a href="avaliar.html">Avaliar</a>
+                <a href="https://docvirt.com/docreader.net/cordelfcrb/49483">Visualizar Cordel</a>
+            </div>
+        </div>
+
+        <div class="recommendation">
+            <img src="logo/imagem2.jpeg" alt="Recomendação 2">
+            <div class="recommendation-info">
+                <h3>O barulho de Lampião no inferno</h3>
+                <p>Descrição breve da recomendação 2.</p>
+                <p>Classificação: 4.0/5</p>
+            </div>
+            <div class="action-buttons">
+                <a href="caminho1.html">Adicionar à Lista</a>
+                <a href="avaliar.html">Avaliar</a>
+                <a href="https://docvirt.com/docreader.net/cordelfcrb/47089">Visualizar Cordel</a>
+            </div>
+        </div>
+
+        <!-- Adicione mais recomendações conforme necessário -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Página de Recomendação</p>
+    </footer>
+</body>
+</html>
